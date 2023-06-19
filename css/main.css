@@ -1,0 +1,192 @@
+body {
+  height: 8300px;
+  background-color: black;
+}
+
+video {
+  width: 100%;
+  mix-blend-mode: darken;
+}
+
+a :hover {
+  text-shadow: 2px 2px 5px black;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  padding: 0;
+  background-color: rgba(32, 32, 32, 0.6352941176);
+  z-index: 2;
+  border-bottom: 1px solid rgb(145, 145, 145);
+}
+
+.navbar-brand {
+  margin-left: 30px;
+  width: 130px;
+  padding-top: 0px;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  transition: 200ms;
+}
+.navbar-brand :hover {
+  text-shadow: 2px 2px 5px black;
+}
+
+.navbar-ani {
+  font-size: 20px;
+}
+
+.menu {
+  font-family: "Caveat", cursive;
+  border-bottom: 1px solid rgb(52, 52, 52);
+  justify-content: space-between;
+}
+
+.cursor :hover {
+  cursor: default;
+}
+
+.menu-list {
+  margin-left: 200px;
+  font-size: 20px;
+}
+.menu-list :hover {
+  text-shadow: 2px 2px 5px black;
+}
+
+.list-div {
+  width: 80px;
+  margin-left: 50px;
+  transition: 200ms;
+}
+
+.insta {
+  margin-right: 30px;
+}
+.insta img {
+  width: 35px;
+  transition: 200ms;
+}
+.insta :hover {
+  filter: drop-shadow(2px 2px 5px black);
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  visibility: hidden;
+  display: block;
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+.ani-show {
+  visibility: visible;
+  overflow: hidden;
+  height: 300px;
+  opacity: 1;
+}
+
+.video-class {
+  position: relative;
+  z-index: 1;
+}
+
+.sub-title {
+  padding-top: 50px;
+  font-size: 62px;
+  text-align: center;
+  position: sticky;
+  top: 30vh;
+}
+
+.story-background {
+  background-color: rgb(52, 52, 52);
+  color: white;
+  width: auto;
+  height: 1500px;
+  transition: all 0.5s;
+}
+
+.background-ani1 {
+  background-color: black;
+  color: #bcbcbc;
+}
+
+.case {
+  width: 100%;
+}
+
+.story-area {
+  margin-top: 200px;
+  margin-left: 5%;
+  width: 45%;
+  line-height: 70px;
+  float: left;
+}
+
+.gradient-text {
+  margin-bottom: 300px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(180deg, #757575, #ffffff);
+  will-change: tranform;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.image-area {
+  width: 45%;
+  float: right;
+}
+
+.image {
+  position: sticky;
+  top: 20vh;
+  opacity: 0;
+  transition: 0.5s;
+}
+.image img {
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 600px;
+  margin-right: 5%;
+}
+
+.last-img {
+  margin-top: 700px;
+  text-align: center;
+  clear: both;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.font-S {
+  font-size: 25px;
+}
+
+.font-M {
+  font-size: 42px;
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=main.css.map */
